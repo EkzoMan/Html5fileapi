@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>FileApi test page</title>
+        <script src="fileapi.js"></script>
+        
+        <style>
+        #uploadFilesList{padding: 0;}
+        #uploadFilesList li{
+                background: -moz-linear-gradient(left center , #ccc 0%, #ccc 100%, #fff 0%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+                list-style: outside none none;
+                margin: 1px 0;
+                padding: 5px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <div id="container"></div>
+        <footer></footer>
+        <script type="text/javascript">
+            uploader.init('container',true);
+        </script>
+    </body>
+</html>
